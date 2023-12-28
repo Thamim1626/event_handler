@@ -1,0 +1,31 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.main-event {
+  width: 100vw;
+  display: flex;
+}
+
+.event-left {
+  width: 600px;
+  background-color: #323f4b;
+  padding: 20px;
+}
+.event-right {
+  flex-shrink: 1;
+  background-color: green;
+}
+
+.event-heading {
+  color: white;
+}
+
+.event-list {
+  list-style: none;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
